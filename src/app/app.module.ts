@@ -13,6 +13,8 @@ import { ChooseSeatComponent } from './pages/choose-seat/choose-seat.component';
 import { InformationComponent } from './pages/information/information.component';
 import { PayComponent } from './pages/pay/pay.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { BlogsComponent } from './pages/blogs/blogs.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 const appRoutes: Routes = [
   {
@@ -39,6 +41,15 @@ const appRoutes: Routes = [
     path: 'pay',
     component: PayComponent
   },
+  {
+    path: 'blogs',
+    component: BlogsComponent
+  },
+  {
+    path: 'contact',
+    component: ContactComponent
+  },
+  
 ]
 
 @NgModule({
@@ -51,7 +62,9 @@ const appRoutes: Routes = [
     ChooseCarComponent,
     ChooseSeatComponent,
     InformationComponent,
-    PayComponent
+    PayComponent,
+    BlogsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

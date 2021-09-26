@@ -1,7 +1,7 @@
 <main>
     <section class="bg-blue-700">
         <article class="container mx-auto flex justify-center">
-            <div class="relative flex justify-center items-center">
+            <div class="relative flex justify-center items-center text-white">
                 <div class="w-56 h-16 bg-blue-700 relative">
                     <div class="absolute right-201 top-0 bottom-0 my-auto h-45 w-45 bg-blue-700 transform rotate-45">
                     </div>
@@ -160,11 +160,11 @@
             <article class="space-x-5 mt-10 text-center">
                 <button
                     class="bg-blue-500 px-10 py-2 rounded-md text-lg text-white hover:bg-white hover:text-blue-500 border border-blue-500 ">
-                    <a href="/seat">Trở lại</a>
+                    <a [routerLink]="['/seat']">Trở lại</a>
                 </button>
                 <button
                     class="bg-blue-500 px-10 py-2 rounded-md text-lg text-white hover:bg-white hover:text-blue-500 border border-blue-500 ">
-                    <a href="/pay">Tiếp tục</a>
+                    <a [routerLink]="['/pay']">Tiếp tục</a>
                 </button>
             </article>
         </form>
