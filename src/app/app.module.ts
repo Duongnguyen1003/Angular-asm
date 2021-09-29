@@ -15,42 +15,10 @@ import { PayComponent } from './pages/pay/pay.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BlogsComponent } from './pages/blogs/blogs.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { PlaceManagerComponent } from './pages/place-manager/place-manager.component';
+import { BannerComponent } from './component/banner/banner.component';
+import { SuccessComponent } from './pages/success/success.component';
 
-const appRoutes: Routes = [
-  {
-    path: '',
-    component: HomeComponent
-  },
-  {
-    path: 'train',
-    component: ChooseTrainComponent
-  },
-  {
-    path: 'car',
-    component: ChooseCarComponent
-  },
-  {
-    path: 'seat',
-    component: ChooseSeatComponent
-  },
-  {
-    path: 'information',
-    component: InformationComponent
-  },
-  {
-    path: 'pay',
-    component: PayComponent
-  },
-  {
-    path: 'blogs',
-    component: BlogsComponent
-  },
-  {
-    path: 'contact',
-    component: ContactComponent
-  },
-  
-]
 
 @NgModule({
   declarations: [
@@ -64,12 +32,14 @@ const appRoutes: Routes = [
     InformationComponent,
     PayComponent,
     BlogsComponent,
-    ContactComponent
+    ContactComponent,
+    PlaceManagerComponent,
+    BannerComponent,
+    SuccessComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(appRoutes),
     CarouselModule
   ],
   providers: [],

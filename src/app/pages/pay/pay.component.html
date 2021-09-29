@@ -137,7 +137,7 @@
                 <div class="grid grid-cols-3 my-4">
                     <label class="font-semibold col-span-1 text-xl text-right pr-10" for="">Loại toa</label>
                     <input class="py-1 px-2 col-span-2 focus:outline-none border-b border-gray-500 text-center text-lg"
-                        disabled type="tel" name="" id="" placeholder="" value="01">
+                        disabled type="tel" name="" id="" placeholder="" value="02 (Giường nằm)">
                 </div>
                 <!-- end train car -->
                 <div class="grid grid-cols-3 my-4">
@@ -156,7 +156,7 @@
                     <label class="font-semibold col-span-1 text-xl text-right pr-10" for="">Giá vé</label>
                     <input
                         class="py-1 px-2 col-span-2 focus:outline-none border-b border-gray-500 text-center text-lg font-semibold text-red-500"
-                        disabled type="tel" name="" id="" placeholder="" value="226.000 ₫/khách">
+                        disabled type="tel" name="" id="" placeholder="" value="500.000 ₫/khách">
                 </div>
                 <!-- end price -->
             </div>
@@ -203,7 +203,7 @@
                     </button>
                     <button
                         class="bg-blue-500 px-10 py-2 rounded-md text-lg text-white hover:bg-white hover:text-blue-500 border border-blue-500 ">
-                        <a href="">Thanh toán</a>
+                        <a [routerLink]="['/success']">Thanh toán</a>
                     </button>
                 </div>
             </form>

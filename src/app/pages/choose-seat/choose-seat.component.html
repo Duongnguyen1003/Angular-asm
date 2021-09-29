@@ -80,39 +80,43 @@
     </section>
     <section class="grid grid-cols-12 space-x-3 container mx-auto my-10">
         <article class="col-span-3">
-            <form action="" class=" border relative overflow-hidden">
-                <img class="w-96 h-80 opacity-30"
+            <form action="" class=" border relative overflow-hidden bg-fixed">
+                <img class="w-96 h-[400px] opacity-30"
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7-_h5oFnFrvWOHqK4BNggZCMP_I78Uj-Fhg&usqp=CAU"
                     alt="">
-                <div class="absolute top-0 bottom-0 left-0 right-0 px-10 py-5 space-y-2">
+                <div class="absolute top-0 bottom-0 left-0 right-0 p-10 space-y-2">
                     <span class="text-3xl font-semibold text-center block uppercase">Thông tin vé</span>
-                    <div class="flex text-xl items-center">
-                        <label class="px-4 font-semibold" for="">Chặng:</label>
-                        <p><span class="px-1">Hà Nội</span>-<span class="px-1">Hải Phòng</span></p>
+                    <div class="grid grid-cols-4 space-x-3 text-lg">
+                        <label class="font-semibold col-span-1 text-right" for="">Chặng:</label>
+                        <span class="col-span-3">Hà Nội - Hải Phòng</span>
                     </div>
-                    <div class="flex text-xl items-center">
-                        <label class="pl-1 pr-3 font-semibold" for="">Ngày đi:</label>
-                        <span class="px-1">20.11.2021</span>
+                    <div class="grid grid-cols-4 space-x-3 text-lg">
+                        <label class="font-semibold col-span-1 text-right" for="">Ngày đi:</label>
+                        <span class="col-span-3">20.11.2021</span>
                     </div>
-                    <div class="flex text-xl items-center">
-                        <label class="pr-2 font-semibold" for="">Ngày về:</label>
-                        <span class="px-1">25.11.2021</span>
+                    <div class="grid grid-cols-4 space-x-3 text-lg">
+                        <label class="font-semibold col-span-1 text-right" for="">Ngày về:</label>
+                        <span class="col-span-3">25.11.2021</span>
                     </div>
-                    <div class="flex text-xl items-center">
-                        <label class="px-2 font-semibold" for="">Số hiệu:</label>
-                        <span class="px-1">SQN1</span>
+                    <div class="grid grid-cols-4 space-x-3 text-lg">
+                        <label class="font-semibold col-span-1 text-right" for="">Số hiệu:</label>
+                        <span class="col-span-3">SQN1</span>
                     </div>
-                    <div class="flex text-xl items-center">
-                        <label class="px-2 font-semibold" for="">Loại toa:</label>
-                        <span class="px-1">02</span>
+                    <div class="grid grid-cols-4 space-x-3 text-lg">
+                        <label class="font-semibold col-span-1 text-right" for="">Loại vé:</label>
+                        <span class="col-span-3">Khứ hồi</span>
                     </div>
-                    <div class="flex text-xl items-center">
-                        <label class="pl-3 pr-2 font-semibold" for="">Loại vé:</label>
-                        <span class="px-1">Khứ hồi</span>
+                    <div class="grid grid-cols-4 space-x-3 text-lg">
+                        <label class="font-semibold col-span-1 text-right" for="">Số người:</label>
+                        <span class="col-span-3">1</span>
                     </div>
-                    <div class="flex text-xl items-center">
-                        <label class="pl-5 pr-3 font-semibold" for="">Giá vé:</label>
-                        <p><span class="font-bold text-white bg-red-500 px-2">226.000</span> ₫/khách</p>
+                    <div class="grid grid-cols-4 space-x-3 text-lg">
+                        <label class="font-semibold col-span-1 text-right" for="">Loại toa:</label>
+                        <span class="col-span-3">2 (Giường nằm)</span>
+                    </div>
+                    <div class="grid grid-cols-4 space-x-3 text-lg">
+                        <label class="font-semibold col-span-1 text-right" for="">Giá vé:</label>
+                        <p class="col-span-3"><span class="bg-red-500 text-white px-2">500.000</span> ₫/khách</p>
                     </div>
                 </div>
             </form>
@@ -227,10 +231,6 @@
                     <li class="flex items-center space-x-3"><i class="fas fa-stop text-4xl text-yellow-500"></i>
                         <span>Ghế đã
                             chọn</span>
-                    </li>
-                    <li class="flex items-center space-x-3"><i class="fas fa-stop text-4xl text-gray-300"></i>
-                        <span>Ghế đang
-                            thanh toán</span>
                     </li>
                 </ul>
             </article>

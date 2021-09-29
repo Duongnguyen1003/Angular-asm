@@ -1,26 +1,18 @@
 <main>
     <section class="relative mb-40">
-        <img class="w-screen h-[500px] object-cover" src="http://vetau.com.vn/images/001.jpg" alt="">
+        <!-- <img class="w-screen h-[500px] object-cover" src="http://vetau.com.vn/images/001.jpg" alt=""> -->
+        <app-banner></app-banner>
         <form
-            class="grid grid-cols-3 container mx-auto shadow-xl rounded-md py-5 px-10 absolute left-0 right-0 bottom-0 -mb-20 bg-white">
+            class="grid grid-cols-3 container mx-auto shadow-xl rounded-md py-5 px-10 absolute left-0 right-0 bottom-0 -mb-16 bg-white z-[80]">
             <article class="space-y-2 mx-auto">
                 <div>
-                    <label for="diemDi" class="block text-gray-500 my-2"><i class="fas fa-map-marker-alt px-2"></i>Điểm
-                        đi</label>
+                    <label for="diemDi" class="block text-gray-500 my-2"><i
+                            class="fas fa-map-marker-alt px-2"></i>Chặng</label>
                     <!-- <input class="border rounded-sm w-260 py-1 px-2" type="text" id="diemDi"> -->
                     <select name="" id="diemDi" class="border rounded-sm w-260 py-1 px-2">
-                        <option value="">Điểm đi</option>
-                        <option value="">Hà Nội</option>
-                        <option value="">Sài Gòn</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="diemDen" class="block text-gray-500 my-2"><i class="fas fa-map-marker-alt px-2"></i>Điểm
-                        đến</label>
-                    <select name="" id="diemDen" class="border rounded-sm w-260 py-1 px-2">
-                        <option value="">Điểm đến</option>
-                        <option value="">Hà Nội</option>
-                        <option value="">Sài Gòn</option>
+                        <option value="">Chặng</option>
+                        <option value="">Hà Nội - Sài Gòn</option>
+                        <option value="">Sài Gòn - Hà Nội</option>
                     </select>
                 </div>
             </article>
@@ -66,7 +58,7 @@
     </section>
     <!-- end form check ticket -->
     <section class="container mx-auto">
-        <span class="block text-4xl text-center">_ Ưu đãi đặc biệt _</span>
+        <span class="block text-4xl text-center uppercase">_ Ưu đãi đặc biệt _</span>
         <span class="block text-gray-500 py-5 w-[500px] text-center mx-auto">Chúng tôi luôn cập nhật những ưu đãi
             mới nhất
             phù hợp với

@@ -81,34 +81,38 @@
     <section class="grid grid-cols-12 space-x-3 container mx-auto my-10">
         <article class="col-span-3">
             <form action="" class=" border relative overflow-hidden bg-fixed">
-                <img class="w-96 h-80 opacity-30"
+                <img class="w-96 h-[360px] opacity-30"
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7-_h5oFnFrvWOHqK4BNggZCMP_I78Uj-Fhg&usqp=CAU"
                     alt="">
                 <div class="absolute top-0 bottom-0 left-0 right-0 p-10 space-y-2">
                     <span class="text-3xl font-semibold text-center block uppercase">Thông tin vé</span>
-                    <div class="flex text-xl items-center">
-                        <label class="px-4 font-semibold" for="">Chặng:</label>
-                        <p><span class="px-1">Hà Nội</span>-<span class="px-1">Hải Phòng</span></p>
+                    <div class="grid grid-cols-4 space-x-3 text-lg">
+                        <label class="font-semibold col-span-1 text-right" for="">Chặng:</label>
+                        <span class="col-span-3">Hà Nội - Hải Phòng</span>
                     </div>
-                    <div class="flex text-xl items-center">
-                        <label class="pl-1 pr-3 font-semibold" for="">Ngày đi:</label>
-                        <span class="px-1">20.11.2021</span>
+                    <div class="grid grid-cols-4 space-x-3 text-lg">
+                        <label class="font-semibold col-span-1 text-right" for="">Ngày đi:</label>
+                        <span class="col-span-3">20.11.2021</span>
                     </div>
-                    <div class="flex text-xl items-center">
-                        <label class="pr-2 font-semibold" for="">Ngày về:</label>
-                        <span class="px-1">25.11.2021</span>
+                    <div class="grid grid-cols-4 space-x-3 text-lg">
+                        <label class="font-semibold col-span-1 text-right" for="">Ngày về:</label>
+                        <span class="col-span-3">25.11.2021</span>
                     </div>
-                    <div class="flex text-xl items-center">
-                        <label class="px-2 font-semibold" for="">Số hiệu:</label>
-                        <span class="px-1">SQN1</span>
+                    <div class="grid grid-cols-4 space-x-3 text-lg">
+                        <label class="font-semibold col-span-1 text-right" for="">Số hiệu:</label>
+                        <span class="col-span-3">SQN1</span>
                     </div>
-                    <div class="flex text-xl items-center">
-                        <label class="pl-3 pr-2 font-semibold" for="">Loại vé:</label>
-                        <span class="px-1">Khứ hồi</span>
+                    <div class="grid grid-cols-4 space-x-3 text-lg">
+                        <label class="font-semibold col-span-1 text-right" for="">Loại vé:</label>
+                        <span class="col-span-3">Khứ hồi</span>
                     </div>
-                    <div class="flex text-xl items-center">
-                        <label class="pl-5 pr-3 font-semibold" for="">Giá vé:</label>
-                        <p><span class="font-bold text-white bg-red-500 px-2">226.000</span> ₫/khách</p>
+                    <div class="grid grid-cols-4 space-x-3 text-lg">
+                        <label class="font-semibold col-span-1 text-right" for="">Số người:</label>
+                        <span class="col-span-3">1</span>
+                    </div>
+                    <div class="grid grid-cols-4 space-x-3 text-lg">
+                        <label class="font-semibold col-span-1 text-right" for="">Giá vé:</label>
+                        <p class="col-span-3"><span class="bg-red-500 text-white px-2">500.000</span> ₫/khách</p>
                     </div>
                 </div>
             </form>
@@ -122,7 +126,6 @@
                         <img src="https://i.ibb.co/HN6Tfk1/toaTau.png" alt="">
                         <div class="block text-lg mt-3 text-center font-semibold space-x-0.5">
                             <span>6</span>
-                            <span>(Còn 5 chỗ)</span>
                         </div>
                     </div>
                 </div>
@@ -131,7 +134,6 @@
                         <img src="https://i.ibb.co/HN6Tfk1/toaTau.png" alt="">
                         <div class="block text-lg mt-3 text-center font-semibold space-x-0.5">
                             <span>5</span>
-                            <span>(Còn 4 chỗ)</span>
                         </div>
                     </div>
                 </div>
@@ -140,7 +142,6 @@
                         <img src="https://i.ibb.co/HN6Tfk1/toaTau.png" alt="">
                         <div class="block text-lg mt-3 text-center font-semibold space-x-0.5">
                             <span>4</span>
-                            <span>(Còn 3 chỗ)</span>
                         </div>
                     </div>
                 </div>
@@ -149,7 +150,6 @@
                         <img src="https://i.ibb.co/HN6Tfk1/toaTau.png" alt="">
                         <div class="block text-lg mt-3 text-center font-semibold space-x-0.5">
                             <span>3</span>
-                            <span>(Còn 2 chỗ)</span>
                         </div>
                     </div>
                 </div>
@@ -158,7 +158,6 @@
                         <img src="https://i.ibb.co/HN6Tfk1/toaTau.png" alt="">
                         <div class="block text-lg mt-3 text-center font-semibold space-x-0.5">
                             <span>2</span>
-                            <span>(Còn 10 chỗ)</span>
                         </div>
                     </div>
                 </div>
@@ -166,16 +165,53 @@
                     <div class="transform group-hover:-translate-y-5 translate-y-0 duration-1000">
                         <img src="https://i.ibb.co/HN6Tfk1/toaTau.png" alt="">
                         <div class="block text-lg mt-3 text-center font-semibold space-x-0.5">
-                            <span>1</span>
-                            <span>(Còn 15 chỗ)</span>
+                            <span class="block">1</span>
                         </div>
                     </div>
                 </div>
                 <img class="" src="https://i.ibb.co/ykxCXPQ/dauTau.png" alt="">
             </article>
-            <article class="text-lg font-semibold space-x-2">
+            <article class="text-center border mx-48 py-5 rounded-md shadow-md border-gray-200">
+                <span class="block text-3xl font-semibold text-center uppercase mb-2">Thông tin toa</span>
+                <div class="grid grid-cols-2 px-5">
+                    <div class="text-left space-y-1">
+                        <div class="grid grid-cols-2 space-x-5">
+                            <span class="block font-semibold text-right">Giường nắm:</span>
+                            <span class="block">Toa 1 - 2</span>
+                        </div>
+                        <div class="grid grid-cols-2 space-x-5">
+                            <span class="block font-semibold text-right">Ghế mền:</span>
+                            <span class="block">Toa 3 - 4</span>
+                        </div>
+                        <div class="grid grid-cols-2 space-x-5">
+                            <span class="block font-semibold text-right">Ghế cứng:</span>
+                            <span class="block">Toa 5 - 6</span>
+                        </div>
+                    </div>
+                    <div class="text-left space-y-1">
+                        <div class="grid grid-cols-2 space-x-5">
+                            <span class="block font-semibold text-right">Giường nắm:</span>
+                            <span class="block">500.000 ₫/khách</span>
+                        </div>
+                        <div class="grid grid-cols-2 space-x-5">
+                            <span class="block font-semibold text-right">Ghế mền:</span>
+                            <span class="block">400.000 ₫/khách</span>
+                        </div>
+                        <div class="grid grid-cols-2 space-x-5">
+                            <span class="block font-semibold text-right">Ghế cứng:</span>
+                            <span class="block">300.000 ₫/khách</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="text-lg font-semibold space-x-2 my-5">
                 <span>Chọn toa:</span>
                 <span>2</span>
+            </article>
+            <article class="text-lg space-x-2 text-red-500">
+                <span class="text-red-500">*</span>
+                <span>Giá vé ở phần thông tin vé đã được được tính theo số lượng người quý khách đã đắng ký đặt
+                    vé</span>
             </article>
             <article class="space-x-5 mt-10 text-center">
                 <button
