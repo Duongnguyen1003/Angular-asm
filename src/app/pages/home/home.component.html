@@ -15,20 +15,14 @@
                         <option value="">Sài Gòn - Hà Nội</option>
                     </select>
                 </div>
-            </article>
-            <article class="space-y-2 mx-auto">
                 <div>
                     <label for="ngayDi" class="block text-gray-500 my-2"><i class="fas fa-calendar-alt px-2"></i>Ngày
                         đi</label>
                     <input class="border rounded-sm w-260 py-1 px-2" type="date" id="ngayDi">
                 </div>
-                <div>
-                    <label for="ngayDen" class="block text-gray-500 my-2"><i class="fas fa-calendar-alt px-2"></i>Ngày
-                        đến</label>
-                    <input class="border rounded-sm w-260 py-1 px-2" type="date" id="ngayDen">
-                </div>
             </article>
-            <article class="space-y-14 mx-auto">
+
+            <article class="space-y-2 mx-auto">
                 <div>
                     <span class="block text-gray-500 my-2">Loại vé</span>
                     <div class="flex space-x-5">
@@ -42,6 +36,13 @@
                         </div>
                     </div>
                 </div>
+                <div>
+                    <label for="ngayDen" class="block text-gray-500 my-2"><i class="fas fa-calendar-alt px-2"></i>Ngày
+                        đến</label>
+                    <input class="border rounded-sm w-260 py-1 px-2" type="date" id="ngayDen">
+                </div>
+            </article>
+            <article class="space-y-2 mx-auto my-auto">
                 <button
                     class="bg-blue-500 text-white px-10 rounded-md w-64 py-1 hover:bg-white hover:text-blue-500 border border-blue-500"><a
                         [routerLink]="['/train']" class="">Tìm kiếm</a></button>
